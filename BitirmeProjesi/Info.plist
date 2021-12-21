@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Gilroy-Black.ttf</string>
+		<string>Gilroy-BlackItalic.ttf</string>
+		<string>Gilroy-Bold.ttf</string>
+		<string>Gilroy-BoldItalic</string>
+		<string>Gilroy-ExtraBold</string>
+		<string>Gilroy-ExtraBoldItalic</string>
+		<string>Gilroy-Heavy</string>
+		<string>Gilroy-HeavyItalic</string>
+		<string>Gilroy-Light</string>
+		<string>Gilroy-LightItalic</string>
+		<string>Gilroy-Medium</string>
+		<string>Gilroy-MediumItalic</string>
+		<string>Gilroy-Regular</string>
+		<string>Gilroy-RegularItalic</string>
+		<string>Gilroy-SemiBold</string>
+		<string>Gilroy-SemiBoldItalic</string>
+		<string>Gilroy-Thin</string>
+		<string>Gilroy-ThinItalic</string>
+		<string>Gilroy-UltraLight</string>
+		<string>Gilroy-UltraLightItalic</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
